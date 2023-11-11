@@ -1,0 +1,53 @@
+/* start variables */
+:root {
+    --MainColor: #d5e1ef;
+}
+/* end variables */
+/* start global rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--MainColor);
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+}
+/* end global rules */
+/* start image */
+.image {
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.image img {
+    max-width: 100%;
+}
+/* end image */
+/* start box */
+.box {
+    width: 270px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+.box h4 {
+    letter-spacing: 1px;
+}
+.box p {
+    color: #92959e;
+    font-size: 13px;
+    margin-top: 10px;
+}
+/* end box */
